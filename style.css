@@ -1,0 +1,52 @@
+h2 {
+  background: red;
+}
+
+
+.parent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px 500px;
+}
+
+.box1 {
+  background: green;
+  grid-area: auto;
+  display:flex;
+ justify-content: center;
+ flex-basis: 50%;
+
+}
+.box2 {
+  background: yellow;
+  grid-area: auto;
+  display:flex;
+ justify-content: center;
+
+}
+.box3 {
+  background: orange;
+  grid-area: auto;
+  display:flex;
+ justify-content: center;
+}
+.box4 {
+  background: gray;
+  grid-area: auto;
+  display:flex;
+ justify-content: center;
+}
+
+.picture {
+  align-self: center; 
+}
+img {
+  border-radius: 50%;
+ position: relative;
+}
+
+
+h1 {
+  align-self: center;
+align-content: center;
+}
